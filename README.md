@@ -40,3 +40,4 @@ Appium, WebdriverIO, Mocha, JavaScript, Allure
 }
 ```
 5. Start Session on Appium Inspector
+6. Element locators should be displayed on the side panel once you start interacting with the mobile app on Android Emulator
