@@ -22,7 +22,7 @@ Appium, WebdriverIO, Mocha, JavaScript, Allure
 7. Install and run `appium-doctor`
 
 # Getting Element Locators
-1. After setting up device in Android Studio, install Appium Inspector
+1. After setting up device in Android Studio, install and open Appium Inspector
 2. Set remote path as `/wd/hub`
 3. Start appium server with `appium` command
 4. Set Desired Capabilities e.g.
