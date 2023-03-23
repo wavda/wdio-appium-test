@@ -1,0 +1,26 @@
+{
+  "name": "wdio-appium-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio wdio.conf.js",
+    "report": "npx allure generate allure-results --clean && npx allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badisi/wdio-harness": "^2.0.2",
+    "@wdio/allure-reporter": "^8.6.6",
+    "@wdio/appium-service": "^8.6.7",
+    "@wdio/cli": "^8.6.7",
+    "@wdio/local-runner": "^8.6.7",
+    "@wdio/mocha-framework": "^8.6.6",
+    "@wdio/spec-reporter": "^8.6.6",
+    "allure-commandline": "^2.21.0",
+    "appium": "^1.22.3",
+    "wdio-wait-for": "^3.0.2",
+    "webdriverio": "^8.6.7"
+  }
+}
