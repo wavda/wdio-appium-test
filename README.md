@@ -2,13 +2,13 @@
 Appium, WebdriverIO, Mocha, JavaScript, Allure
 
 # Project Setup
-1. `npm init -y`
+1. `npm init -y` on project path
 2. `npm install @wdio/cli appium allure-commandline --save-dev`
 3. `npm install -g appium`
 4. `npx wdio config -y` and select appium driver
 5. Setup capabilities on `wdio.conf.js`
 6. Setup Device Emulator on Android Studio
-7. Install appium-doctor
+7. Install and run `appium-doctor`
 
 # Getting Element Locators
 1. After setting up device in Android Studio, install Appium Inspector
