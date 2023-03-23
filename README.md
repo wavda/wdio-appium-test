@@ -1,6 +1,11 @@
 # Tools
 Appium, WebdriverIO, Mocha, JavaScript, Allure
 
+# Pre-requisites
+1. Node.js and NPM
+2. Java +8
+3. Android SDK +16 (Android Emulator and Command line tools)
+
 # Project Setup
 1. `npm init -y` on project path
 2. `npm install @wdio/cli appium allure-commandline --save-dev`
@@ -22,6 +27,7 @@ Appium, WebdriverIO, Mocha, JavaScript, Allure
   "appium:automationName": "UIAutomator2",
   "appium:autoGrantPermissions": true,
   "appium:udid": "emulator-5554",
+  "appium:app": "C:\\demo\\wdio-appium-test\\apk\\NativeDemoApp.apk",
   "appium:appPackage": "com.wdiodemoapp",
   "appium:appActivity": "com.wdiodemoapp.MainActivity"
 }
