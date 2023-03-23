@@ -6,7 +6,13 @@ Appium, WebdriverIO, Mocha, JavaScript, Allure
 2. Java +8
 3. Android SDK +16 (Android Emulator and Command line tools)
 
-# Project Setup
+# Test Execution
+1. Start Android Studio
+2. `npm install`
+3. `npm test`
+4. `npm run report`
+
+# Initial setup of this project
 1. `npm init -y` on project path
 2. `npm install @wdio/cli appium allure-commandline --save-dev`
 3. `npm install -g appium`
@@ -18,7 +24,8 @@ Appium, WebdriverIO, Mocha, JavaScript, Allure
 # Getting Element Locators
 1. After setting up device in Android Studio, install Appium Inspector
 2. Set remote path as `/wd/hub`
-3. Set Desired Capabilities e.g.
+3. Start appium server with `appium` command
+4. Set Desired Capabilities e.g.
 ```
 {
   "platformName": "Android",
@@ -32,10 +39,4 @@ Appium, WebdriverIO, Mocha, JavaScript, Allure
   "appium:appActivity": "com.wdiodemoapp.MainActivity"
 }
 ```
-
-# Test Execution
-1. Start Android Studio
-2. `npm install`
-3. Start appium server with `appium` command
-4. `npm test`
-5. `npm run report`
+5. Start Session on Appium Inspector
