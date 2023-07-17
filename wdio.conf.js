@@ -5,7 +5,7 @@ exports.config = {
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
-    
+    path: '/wd/hub',
     port: 4723,
     //
     // ==================
@@ -62,6 +62,15 @@ exports.config = {
         automationName: 'UiAutomator2',
         appPackage: 'com.wdiodemoapp',
         appActivity: 'com.wdiodemoapp.MainActivity'
+    }],
+    capabilities: [{
+        'appium:platformName': 'iOS',
+        'appium:automationName': 'XCUITest',
+        'appium:platformVersion': '16.4',
+        'appium:deviceName': 'iPhone 14 Pro Simulator',
+        'appium:udid':'072599DA-1969-45AB-AB8D-A1871ABA2B8D',
+        'appium:bundleId': 'com.saucelabs.SwagLabsMobileApp',
+        'appium:noReset': true
     }],
     //
     // ===================
